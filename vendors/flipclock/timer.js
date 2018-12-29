@@ -4,7 +4,7 @@ var timer = function() {};
 timer.countdownDate = new Date();
 
 var startDate = today;
-var endDate = Date.parse("2018-12-31");
+var endDate = Date.parse("2019-02-01");
 var timeDiff = endDate - startDate;
 var daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
 
